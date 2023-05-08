@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/ch1"
+    android:orientation="vertical"
+    android:textAlignment="textStart"
+    tools:context=".Confirmation">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:text="Merci d'avoir adopté le chien "
+            android:textColor="#D83A3A"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                                         Nous vous contacter sur votre email"
+            android:textColor="#751919"
+            android:textColorHint="#191616"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Retour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableBottom="?attr/actionModeCloseDrawable" />
+
+</LinearLayout>

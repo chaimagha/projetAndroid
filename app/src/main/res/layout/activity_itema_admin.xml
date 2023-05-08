@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4sp"
+    android:background="@drawable/arriere_plan"
+    android:orientation="vertical"
+    android:padding="4sp"
+    tools:context=".AjoutAnimal">
+
+    <TextView
+        android:id="@+id/tvimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="image link"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de chien"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:orientation="horizontal"
+        android:padding="4sp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btDelete"
+            android:layout_width="0dp"
+            android:layout_height="91dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Supprimer"
+            android:textColor="@color/lavender" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btUpdate"
+            android:layout_width="0dp"
+            android:layout_height="87dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:text="Modifier"
+            android:textColor="@color/purple_200" />
+
+    </LinearLayout>
+</LinearLayout>
